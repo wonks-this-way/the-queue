@@ -17,9 +17,6 @@ def save_json(results, out_filename):
 
 
 def complex_request_example(base, before, after, out_filename="complex"):
-    """
-    Get all the data from 
-    """
     results = []
     for i in range(1194):
         page = i + 1
